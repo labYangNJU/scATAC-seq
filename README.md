@@ -65,7 +65,22 @@ code:
 
 code: 
 
-      11_Optimized_cicero_calling.R   #input files including peak-cell-matrix and cell grouping information.  Based on Cicero(1.0.15).
+      11_Optimized_cicero_calling.R   #Input files including peak-cell-matrix and cell grouping information.  Based on Cicero(1.0.15).
+      
+
+#Section 9: Identify origin-derived features for pRCC subtypes: 
+
+code:
+
+      12_Identify_origin_derived_features.R   #Input files including gene activities matrices from origin cells and pRCC. Based on Seurat(3.0.0) and edgeR(3.24.3).
+     
+     
+#Section 10: Trajectory analysis between pRCC and normal samples.
+
+code:
+
+      13_Trajectory_analysis.R   #Input file including gene expression matrix for pRCC and normal samples and group information for all the samples. Based on Monocle(2.10.1).
+      
 
 # Citation
 
